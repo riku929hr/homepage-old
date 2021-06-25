@@ -24,9 +24,17 @@ module.exports = {
     sourceType: 'module',
     tsconfigRootDir: __dirname,
   },
-  plugins: ['react', '@typescript-eslint', 'import', 'jsx-a11y', 'react-hooks'],
+  plugins: [
+    '@typescript-eslint',
+    'import',
+    'jsx-a11y',
+    'prefer-arrow',
+    'react',
+    'react-hooks',
+  ],
   root: true,
   rules: {
+    // occur error in `import React from 'react'` with react-scripts 4.0.1
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     'lines-between-class-members': [
@@ -68,6 +76,14 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never',
+      },
+    ],
+    'prefer-arrow/prefer-arrow-functions': [
+      'error',
+      {
+        disallowPrototype: true,
+        singleReturnOnly: false,
+        classPropertiesAllowed: false,
       },
     ],
     'react/jsx-filename-extension': [
