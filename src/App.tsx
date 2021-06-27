@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { Header, Container, Icon, Image, List } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
+import icon from './icon.jpg';
 import hatenablogLogo from './hatena-blog-logo-s.png';
 import qiitaLogo from './qiita.png';
 
@@ -25,6 +26,7 @@ const style = {
 const App: FC = () => (
   <>
     <Header as="h1" style={style.h1} textAlign="center">
+      <Image circular src={icon} />
       riku(@riku929hr)
     </Header>
 
