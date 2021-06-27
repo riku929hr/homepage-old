@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Header, Container, Icon, Image } from 'semantic-ui-react';
+import { Header, Container, Icon, Image, List } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import hatenablogLogo from './hatena-blog-logo-s.png';
@@ -17,7 +17,8 @@ const style = {
     padding: '2em 0em',
   },
   container: {
-    margin: '2em',
+    marginBottom: '2em',
+    padding: '2em 0',
   },
 };
 
@@ -40,7 +41,25 @@ const App: FC = () => (
       <Header as="h3">プログラミング言語</Header>
       <Header as="h3">フレームワーク/ミドルウェア</Header>
       <Header as="h3">開発環境</Header>
-      <Header as="h3">資格など</Header>
+      <Header as="h3">とった資格など</Header>
+      <List bulleted>
+        <List.Item>
+          <List.Header>応用情報技術者</List.Header>
+          <List.Description>2021.06</List.Description>
+        </List.Item>
+        <List.Item>
+          <List.Header>基本情報技術者</List.Header>
+          <List.Description>2021.03</List.Description>
+        </List.Item>
+        <List.Item>
+          <List.Header>英検準1級</List.Header>
+          <List.Description>2019.11</List.Description>
+        </List.Item>
+        <List.Item>
+          <List.Header>TOEIC L&amp;R 875</List.Header>
+          <List.Description>2018.11</List.Description>
+        </List.Item>
+      </List>
     </Container>
     <Container style={style.container} textAlign="center">
       <Header as="h2" textAlign="center">
