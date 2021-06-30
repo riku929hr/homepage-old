@@ -34,15 +34,38 @@ const App: FC = () => (
       <Header as="h2" dividing>
         自己紹介
       </Header>
-      <p>Here is a Component</p>
+      <p>
+        都内IT企業で事業開発を担当。戦略立案、BizDevを経験中。ロジカルシンキングが得意（だと思う）
+      </p>
+      <p>工学修士（ロボティクス）。社会人2年目の26歳。</p>
+      <p>趣味はプログラミング、吹奏楽（ホルン）、ギターなど。</p>
     </Container>
     <Container style={style.container} text fluid>
       <Header as="h2" dividing>
         スキルなど
       </Header>
-      <Header as="h3">プログラミング言語</Header>
-      <Header as="h3">フレームワーク/ミドルウェア</Header>
-      <Header as="h3">開発環境</Header>
+      <Header as="h3">プログラミング言語など</Header>
+      <List bulleted>
+        <List.Item>
+          <List.Header>まあまあ</List.Header>
+          <List.Description>C/C++, Python</List.Description>
+        </List.Item>
+
+        <List.Item>
+          <List.Header>何となく</List.Header>
+          <List.Description>
+            JavaScript, TypeScript, React, ROS
+          </List.Description>
+        </List.Item>
+
+        <List.Item>
+          <List.Header>ちょっと使ったことある</List.Header>
+          <List.Description>
+            Django, BootStrap, PHP, WordPress, GCP
+          </List.Description>
+        </List.Item>
+      </List>
+
       <Header as="h3">とった資格など</Header>
       <List bulleted>
         <List.Item>
