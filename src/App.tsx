@@ -66,6 +66,27 @@ const App: FC = () => (
         </List.Item>
       </List>
 
+      <Header as="h3">その他工学スキル</Header>
+      <List bulleted>
+        <List.Item>
+          <List.Header>ロボット工学・制御工学</List.Header>
+          <List.Description>
+            大学/大学院では専門でした。趣味・学生研究レベルですが、ロボット製作経験あります。古典制御/現代制御、運動学など、ロボットに関する基本的な知識は持っているつもりです。
+          </List.Description>
+        </List.Item>
+        <List.Item>
+          <List.Header>3D CAD</List.Header>
+          <List.Description>SolidWorksで設計経験あります</List.Description>
+        </List.Item>
+        <List.Item>
+          <List.Header>マイコンなど</List.Header>
+          <List.Description>
+            Raspberry pi,
+            Arduinoなど。回路設計の初歩くらいの知識は持ってるつもりです。
+          </List.Description>
+        </List.Item>
+      </List>
+
       <Header as="h3">とった資格など</Header>
       <List bulleted>
         <List.Item>
