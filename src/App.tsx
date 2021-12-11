@@ -34,79 +34,11 @@ const App: FC = () => (
       <Header as="h2" dividing>
         自己紹介
       </Header>
-      <p>
-        都内IT企業で事業開発を担当。戦略立案、BizDevを経験中。ロジカルシンキングが得意（だと思う）
-      </p>
-      <p>工学修士（ロボティクス）。社会人2年目の26歳。</p>
-      <p>趣味はプログラミング、吹奏楽（ホルン）、ギターなど。</p>
+      東北大学、同大学院を卒業後、ソフトバンク株式会社に入社。
+      同社で新規事業開発にPdM、BizDevとして約1年半携わった後、オープンロジに実務未経験ながらwebエンジニアとして転職。
+      現在エンジニア修行中。
     </Container>
-    <Container style={style.container} text fluid>
-      <Header as="h2" dividing>
-        スキルなど
-      </Header>
-      <Header as="h3">プログラミング言語など</Header>
-      <List bulleted>
-        <List.Item>
-          <List.Header>まあまあ</List.Header>
-          <List.Description>C/C++, Python</List.Description>
-        </List.Item>
 
-        <List.Item>
-          <List.Header>何となく</List.Header>
-          <List.Description>
-            JavaScript, TypeScript, React, ROS
-          </List.Description>
-        </List.Item>
-
-        <List.Item>
-          <List.Header>ちょっと使ったことある</List.Header>
-          <List.Description>
-            Django, BootStrap, PHP, WordPress, GCP
-          </List.Description>
-        </List.Item>
-      </List>
-
-      <Header as="h3">その他工学スキル</Header>
-      <List bulleted>
-        <List.Item>
-          <List.Header>ロボット工学・制御工学</List.Header>
-          <List.Description>
-            大学/大学院では専門でした。趣味・学生研究レベルですが、ロボット製作経験あります。古典制御/現代制御、運動学など、ロボットに関する基本的な知識は持っているつもりです。
-          </List.Description>
-        </List.Item>
-        <List.Item>
-          <List.Header>3D CAD</List.Header>
-          <List.Description>SolidWorksで設計経験あります</List.Description>
-        </List.Item>
-        <List.Item>
-          <List.Header>マイコンなど</List.Header>
-          <List.Description>
-            Raspberry pi,
-            Arduinoなど。回路設計の初歩くらいの知識は持ってるつもりです。
-          </List.Description>
-        </List.Item>
-      </List>
-
-      <Header as="h3">とった資格など</Header>
-      <List bulleted>
-        <List.Item>
-          <List.Header>応用情報技術者</List.Header>
-          <List.Description>2021.06</List.Description>
-        </List.Item>
-        <List.Item>
-          <List.Header>基本情報技術者</List.Header>
-          <List.Description>2021.03</List.Description>
-        </List.Item>
-        <List.Item>
-          <List.Header>英検準1級</List.Header>
-          <List.Description>2019.11</List.Description>
-        </List.Item>
-        <List.Item>
-          <List.Header>TOEIC L&amp;R 875</List.Header>
-          <List.Description>2018.11</List.Description>
-        </List.Item>
-      </List>
-    </Container>
     <Container style={style.container} text fluid>
       <Header as="h2">リンク</Header>
       <List animated verticalAlign="middle">
