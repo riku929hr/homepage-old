@@ -27,16 +27,18 @@ const App: FC = () => (
   <>
     <Header as="h1" style={style.h1} textAlign="center">
       <Image circular src={icon} />
-      riku(@riku929hr)
+      rikuto(@riku929hr)
     </Header>
 
     <Container style={style.container} text fluid>
       <Header as="h2" dividing>
         自己紹介
       </Header>
-      東北大学、同大学院を卒業後、ソフトバンク株式会社に入社。
-      同社で新規事業開発にPdM、BizDevとして約1年半携わった後、オープンロジに実務未経験ながらwebエンジニアとして転職。
-      現在エンジニア修行中。
+      <p>
+        東北大学、同大学院を卒業後、ソフトバンク株式会社に入社。
+        同社で新規事業開発にPdM、BizDevとして約1年半携わった後、オープンロジに実務未経験ながらwebエンジニアとして転職。
+        現在エンジニア修行中。
+      </p>
     </Container>
 
     <Container style={style.container} text fluid>
