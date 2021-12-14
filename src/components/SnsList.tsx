@@ -14,6 +14,9 @@ const SnsList: VFC<Props> = (props) => {
           {snsItem.iconSrc && <Image src={snsItem.iconSrc} size="mini" />}
           <List.Content>
             <List.Header>{snsItem.name}</List.Header>
+            {snsItem.description && (
+              <List.Description>{snsItem.description}</List.Description>
+            )}
           </List.Content>
         </List.Item>
       ))}

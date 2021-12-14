@@ -8,6 +8,7 @@ export type Sns = {
   name: string;
   link: string;
   iconSrc?: string;
+  description?: string;
 };
 
 export const snsData: Sns[] = [
@@ -39,5 +40,6 @@ export const snsData: Sns[] = [
     id: 5,
     name: 'YOUTRUST',
     link: 'https://youtrust.jp/users/riku929hr',
+    description: '詳しい職務経歴はこちらに載せています。',
   },
 ];
