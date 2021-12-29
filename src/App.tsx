@@ -5,8 +5,6 @@ import { snsData } from './data/sns';
 import SnsList from './components/SnsList';
 import './App.css';
 import icon from './icon.jpg';
-// import hatenablogLogo from './hatena-blog-logo-s.png';
-// import qiitaLogo from './qiita.png';
 
 const style = {
   h1: {
