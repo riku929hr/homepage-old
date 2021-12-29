@@ -1,4 +1,12 @@
-#root {
-  max-width: 900px;
-  margin: 2.5em auto 2.5em;
+h1 {
+  margin-top: 2em;
+}
+
+h2 {
+  margin: 2em;
+}
+
+.container {
+  padding-top: 2em;
+  margin-bottom: 2em;
 }
