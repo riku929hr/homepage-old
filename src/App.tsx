@@ -23,10 +23,8 @@ const App: FC = () => (
       </p>
     </Container>
 
-    <Container className="container" text fluid>
-      <Header as="h2" dividing>
-        リンク
-      </Header>
+    <Container className="container" text fluid textAlign="center">
+      <Header as="h2">Follow Me!!</Header>
       <SnsList snses={snsData} />
     </Container>
   </>
