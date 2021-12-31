@@ -8,16 +8,14 @@ const SnsList: VFC<Props> = (props) => {
   const { snses } = props;
 
   return (
-    <List selection verticalAlign="middle">
+    <List horizontal verticalAlign="middle">
       {snses.map((snsItem) => (
         <List.Item key={snsItem.id} as="a" href={snsItem.link}>
-          {snsItem.iconSrc && <Image src={snsItem.iconSrc} size="mini" />}
-          <List.Content>
+          {snsItem.iconSrc ? (
+            <Image src={snsItem.iconSrc} size="mini" />
+          ) : (
             <List.Header>{snsItem.name}</List.Header>
-            {snsItem.description && (
-              <List.Description>{snsItem.description}</List.Description>
-            )}
-          </List.Content>
+          )}
         </List.Item>
       ))}
     </List>
